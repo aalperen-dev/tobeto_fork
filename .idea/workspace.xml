@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094aee30-ba5c-4fa5-a818-fa132e350a04" name="Changes" comment="" />
+    <list default="true" id="094aee30-ba5c-4fa5-a818-fa132e350a04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +47,9 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "aalperen",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Alperen/Desktop/flutter-yt/tobeto_fork/tobeto_app",
     "settings.editor.selected.configurable": "com.genymobile.genymotion.ide.idea.GdmSettings",
     "show.migrate.to.gradle.popup": "false"
   }
