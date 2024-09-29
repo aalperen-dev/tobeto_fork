@@ -207,7 +207,7 @@ class _TBTDrawerState extends State<TBTDrawer> with TickerProviderStateMixin {
                 title: ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.red),
+                        WidgetStateProperty.all<Color>(Colors.red),
                   ),
                   onPressed: () async => AuthRepository().signOutUser(),
                   child: Text(
@@ -228,7 +228,7 @@ class _TBTDrawerState extends State<TBTDrawer> with TickerProviderStateMixin {
             padding: const EdgeInsets.symmetric(horizontal: 30),
             child: ElevatedButton(
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                backgroundColor: WidgetStateProperty.all<Color>(Colors.black),
               ),
               onPressed: () {
                 Navigator.of(context)

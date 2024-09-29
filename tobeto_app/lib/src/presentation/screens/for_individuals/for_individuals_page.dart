@@ -26,7 +26,7 @@ class ForIndividualsScreen extends StatelessWidget {
                             vertical: 30, horizontal: 10),
                         width: MediaQuery.of(context).size.width,
                         decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.background,
+                          color: Theme.of(context).colorScheme.surface,
                         ),
                         child: Column(
                           children: [

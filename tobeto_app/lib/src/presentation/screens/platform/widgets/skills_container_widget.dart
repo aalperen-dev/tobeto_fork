@@ -37,7 +37,7 @@ class SkillsContainer extends StatelessWidget {
                     builder: (BuildContext context) {
                       return AlertDialog(
                         backgroundColor:
-                            Theme.of(context).colorScheme.background,
+                            Theme.of(context).colorScheme.surface,
                         title: Text(
                           "Yetkinlikler",
                           style: TextStyle(

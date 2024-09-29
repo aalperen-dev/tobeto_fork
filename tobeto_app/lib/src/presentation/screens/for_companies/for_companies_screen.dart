@@ -110,7 +110,7 @@ class ForCompaniesScreen extends StatelessWidget {
                         ),
                         padding: const EdgeInsets.all(15),
                         decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.background,
+                          color: Theme.of(context).colorScheme.surface,
                           borderRadius: const BorderRadius.all(
                             Radius.circular(45),
                           ),
@@ -151,7 +151,8 @@ class ForCompaniesScreen extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const  ContactUsScreen()),
+                                      builder: (context) =>
+                                          const ContactUsScreen()),
                                 );
                               },
                             ),

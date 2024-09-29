@@ -199,7 +199,7 @@ class _EditExperienceTabState extends State<EditExperienceTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedExperienceType,
                             itemBuilder: (BuildContext context) {
                               return ['Tam Zamanlı', 'Yarı Zamanlı', 'Staj']
@@ -252,7 +252,7 @@ class _EditExperienceTabState extends State<EditExperienceTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedCityId,
                             itemBuilder: (BuildContext context) {
                               return _cities.map((city) {
@@ -390,7 +390,8 @@ class _EditExperienceTabState extends State<EditExperienceTab> {
                                   _positionController.text.isEmpty ||
                                   _sectorController.text.isEmpty) {
                                 Utilities.showToast(
-                                    toastMessage: 'Yıldızlı alanları doldurunuz!');
+                                    toastMessage:
+                                        'Yıldızlı alanları doldurunuz!');
                               } else {
                                 _saveExperience(
                                   companyName: _companyNameController.text,
@@ -437,9 +438,8 @@ class _EditExperienceTabState extends State<EditExperienceTab> {
                                   ExperienceModel experience =
                                       currentUser.experiencesList![index];
                                   return Card(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .background,
+                                    color:
+                                        Theme.of(context).colorScheme.surface,
                                     child: ListTile(
                                       title: Text(
                                         experience.companyName,

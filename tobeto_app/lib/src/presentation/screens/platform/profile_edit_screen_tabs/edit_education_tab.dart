@@ -114,7 +114,7 @@ class _EditEducationTabState extends State<EditEducationTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedEducationLevel,
                             itemBuilder: (BuildContext context) {
                               return <PopupMenuEntry<String>>[
@@ -310,7 +310,8 @@ class _EditEducationTabState extends State<EditEducationTab> {
                                   (!_isCurrentlyStudied &&
                                       _selectedEndDate == null)) {
                                 Utilities.showToast(
-                                    toastMessage: 'Yıldızlı alanları doldurunuz!');
+                                    toastMessage:
+                                        'Yıldızlı alanları doldurunuz!');
                               } else {
                                 _saveEducation(
                                   schoolName: _universityController.text,
@@ -354,9 +355,8 @@ class _EditEducationTabState extends State<EditEducationTab> {
                                   EducationModel education =
                                       currentUser.schoolsList![index];
                                   return Card(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .background,
+                                    color:
+                                        Theme.of(context).colorScheme.surface,
                                     child: ListTile(
                                       title: Text(
                                         education.schoolName,

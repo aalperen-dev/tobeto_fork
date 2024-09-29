@@ -16,7 +16,7 @@ class LanguageWidget extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(Radius.circular(25)),
         boxShadow: const [
           BoxShadow(

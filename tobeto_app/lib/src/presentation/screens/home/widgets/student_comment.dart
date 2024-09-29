@@ -21,7 +21,7 @@ class _StudentCommentCardState extends State<StudentCommentCard> {
           horizontal: 5, vertical: 5), //Ekran ile card arasında ki mesafe için
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(
           Radius.circular(90),
         ),

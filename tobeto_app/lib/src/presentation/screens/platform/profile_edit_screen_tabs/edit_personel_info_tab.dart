@@ -198,7 +198,7 @@ class _EditPersonalInfoTabState extends State<EditPersonalInfoTab> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: PopupMenuButton<String>(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         initialValue: selectedValue,
         itemBuilder: (context) {
           return options.map((option) {
@@ -274,7 +274,7 @@ class _EditPersonalInfoTabState extends State<EditPersonalInfoTab> {
                         controller: _phoneController,
                         pickerDialogStyle: PickerDialogStyle(
                             backgroundColor:
-                                Theme.of(context).colorScheme.background),
+                                Theme.of(context).colorScheme.surface),
                         dropdownTextStyle: TextStyle(
                             color: Theme.of(context).colorScheme.onSecondary),
                         style: TextStyle(
@@ -361,7 +361,7 @@ class _EditPersonalInfoTabState extends State<EditPersonalInfoTab> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: PopupMenuButton<String>(
-                        color: Theme.of(context).colorScheme.background,
+                        color: Theme.of(context).colorScheme.surface,
                         initialValue: _selectedCityName,
                         itemBuilder: (context) {
                           return _cities.map((city) {
@@ -398,7 +398,7 @@ class _EditPersonalInfoTabState extends State<EditPersonalInfoTab> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: PopupMenuButton<String>(
-                        color: Theme.of(context).colorScheme.background,
+                        color: Theme.of(context).colorScheme.surface,
                         initialValue: _selectedDistrictName,
                         itemBuilder: (context) {
                           if (_selectedCityId == null ||

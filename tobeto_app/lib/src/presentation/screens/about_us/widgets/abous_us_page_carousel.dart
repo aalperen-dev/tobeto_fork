@@ -10,7 +10,7 @@ class AboutUsCarousel extends StatefulWidget {
 }
 
 class _AboutUsCarouselState extends State<AboutUsCarousel> {
-  final CarouselController _controller = CarouselController();
+  final CarouselSliderController _controller = CarouselSliderController();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -20,7 +20,7 @@ class _AboutUsCarouselState extends State<AboutUsCarousel> {
       ), //Ekran ile card arasında ki mesafe için
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(
           Radius.circular(90),
         ),

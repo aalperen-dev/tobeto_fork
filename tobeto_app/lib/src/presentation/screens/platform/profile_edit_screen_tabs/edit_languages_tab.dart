@@ -161,7 +161,7 @@ class _EditLanguagesTabState extends State<EditLanguagesTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedLanguage,
                             itemBuilder: (BuildContext context) {
                               return _languages
@@ -204,7 +204,7 @@ class _EditLanguagesTabState extends State<EditLanguagesTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedLevel,
                             itemBuilder: (BuildContext context) {
                               return _levels
@@ -289,9 +289,8 @@ class _EditLanguagesTabState extends State<EditLanguagesTab> {
                                   LanguageModel language =
                                       currentUser.languageList![index];
                                   return Card(
-                                    color: Theme.of(context)
-                                        .colorScheme
-                                        .background,
+                                    color:
+                                        Theme.of(context).colorScheme.surface,
                                     child: ListTile(
                                       title: Text(
                                         language.languageName!,

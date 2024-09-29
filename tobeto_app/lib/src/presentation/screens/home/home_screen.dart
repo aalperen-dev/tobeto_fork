@@ -18,7 +18,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _carouselController =
+      CarouselSliderController();
 
   UserCommendsModel _selected = TBTDataCollection.userCommentsList[0];
 
@@ -70,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             horizontal: 5, vertical: 10),
                         padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.background,
+                          color: Theme.of(context).colorScheme.surface,
                           borderRadius: const BorderRadius.all(
                             Radius.circular(20),
                           ),

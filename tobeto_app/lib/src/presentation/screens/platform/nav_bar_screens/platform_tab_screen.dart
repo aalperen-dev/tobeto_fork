@@ -106,7 +106,7 @@ class _PlatformTabScreenState extends State<PlatformTabScreen> {
                                 bottomLeft: Radius.circular(15),
                                 bottomRight: Radius.circular(15),
                               ),
-                              color: Theme.of(context).colorScheme.background),
+                              color: Theme.of(context).colorScheme.surface),
                           width: MediaQuery.of(context).size.width,
                           child: Column(
                             children: [

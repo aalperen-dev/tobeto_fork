@@ -240,7 +240,7 @@ class _EditSkillsTabState extends State<EditSkillsTab> {
                                   return Card(
                                     color: Theme.of(context)
                                         .colorScheme
-                                        .background,
+                                        .surface,
                                     child: ListTile(
                                       title: Text(
                                         skill.skillName!,

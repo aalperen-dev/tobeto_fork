@@ -19,7 +19,7 @@ class AboutUsOurTeamCard extends StatelessWidget {
       child: Container(
         width: MediaQuery.of(context).size.width - 50,
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           borderRadius: const BorderRadius.all(
             Radius.circular(90),
           ),

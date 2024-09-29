@@ -72,7 +72,7 @@ class _ApplicationsTabScreenState extends State<ApplicationsTabScreen> {
                         infoText: 'Yeni Başvuru Yap!',
                         child: Container(
                           decoration: BoxDecoration(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             borderRadius: const BorderRadius.all(
                               Radius.circular(24),
                             ),

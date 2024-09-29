@@ -203,7 +203,7 @@ class _EditSocialMediaTabState extends State<EditSocialMediaTab> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PopupMenuButton<String>(
-                            color: Theme.of(context).colorScheme.background,
+                            color: Theme.of(context).colorScheme.surface,
                             initialValue: _selectedSocialMedia,
                             itemBuilder: (BuildContext context) {
                               return [
@@ -301,7 +301,7 @@ class _EditSocialMediaTabState extends State<EditSocialMediaTab> {
                                   return Card(
                                     color: Theme.of(context)
                                         .colorScheme
-                                        .background,
+                                        .surface,
                                     child: ListTile(
                                       leading: CircleAvatar(
                                         radius: 18,

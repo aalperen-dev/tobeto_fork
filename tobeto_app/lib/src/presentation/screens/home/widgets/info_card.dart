@@ -26,7 +26,7 @@ class TBTInfoCard extends StatelessWidget {
       width: MediaQuery.of(context).size.width - 100,
       height: 400,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(
           Radius.circular(90),
         ),
