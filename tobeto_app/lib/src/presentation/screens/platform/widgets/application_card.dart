@@ -58,7 +58,7 @@ class _ApplicationCardState extends State<ApplicationCard> {
                   width: 10,
                 ),
               ),
-              color: Theme.of(context).colorScheme.background,
+              color: Theme.of(context).colorScheme.surface,
               borderRadius: const BorderRadius.all(
                 Radius.circular(15),
               ),

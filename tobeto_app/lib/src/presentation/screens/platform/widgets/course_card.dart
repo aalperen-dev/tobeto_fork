@@ -31,7 +31,7 @@ class _CourseCardState extends State<CourseCard> {
         boxShadow: const <BoxShadow>[
           BoxShadow(color: Color.fromARGB(159, 0, 0, 0), blurRadius: 5),
         ],
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(Radius.circular(30)),
       ),
       child: Column(

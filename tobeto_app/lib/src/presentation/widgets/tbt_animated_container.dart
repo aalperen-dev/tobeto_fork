@@ -49,10 +49,10 @@ class _TBTAnimatedContainerState extends State<TBTAnimatedContainer> {
           duration: const Duration(seconds: 1),
           child: ScrollbarTheme(
             data: ScrollbarThemeData(
-              thumbVisibility: MaterialStateProperty.all(true),
-              trackVisibility: MaterialStateProperty.all(true),
-              thickness: MaterialStateProperty.all(3.0),
-              thumbColor: MaterialStateProperty.all(
+              thumbVisibility: WidgetStateProperty.all(true),
+              trackVisibility: WidgetStateProperty.all(true),
+              thickness: WidgetStateProperty.all(3.0),
+              thumbColor: WidgetStateProperty.all(
                   const Color.fromARGB(255, 153, 51, 255)),
             ),
             child: Scrollbar(

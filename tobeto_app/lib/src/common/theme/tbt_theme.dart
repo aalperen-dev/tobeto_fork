@@ -11,7 +11,7 @@ class TBTColorScheme {
           onPrimary: const Color.fromARGB(255, 79, 75, 104),
           secondary: const Color.fromRGBO(110, 110, 110, 1),
           onSecondary: const Color.fromRGBO(130, 130, 130, 1),
-          background: Colors.white,
+          surface: Colors.white,
         ),
     iconTheme: const IconThemeData(color: Colors.black),
     drawerTheme: const DrawerThemeData(
@@ -30,7 +30,7 @@ class TBTColorScheme {
           onPrimary: const Color.fromARGB(255, 129, 125, 161),
           secondary: const Color.fromRGBO(160, 160, 160, 1),
           onSecondary: const Color.fromRGBO(180, 180, 180, 1),
-          background: const Color.fromARGB(255, 20, 20, 20),
+          surface: const Color.fromARGB(255, 20, 20, 20),
         ),
     iconTheme: const IconThemeData(color: Colors.white),
     drawerTheme: const DrawerThemeData(

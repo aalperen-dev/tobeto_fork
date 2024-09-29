@@ -109,7 +109,7 @@ void _showPopup(BuildContext context, title, content) {
     context: context,
     builder: (BuildContext context) {
       return AlertDialog(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         title: Text(
           title.toString().toLowerCase(),
           textAlign: TextAlign.center,

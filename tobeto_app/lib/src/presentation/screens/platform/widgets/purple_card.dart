@@ -51,7 +51,7 @@ class TBTPurpleCard extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: ElevatedButton(
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all<Color>(
+                  backgroundColor: WidgetStateProperty.all<Color>(
                     const Color.fromARGB(255, 153, 51, 255),
                   ),
                 ),

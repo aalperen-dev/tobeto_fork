@@ -18,7 +18,7 @@ class HomeScreenGif extends StatelessWidget {
       ),
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.background,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: const BorderRadius.all(
           Radius.circular(90),
         ),

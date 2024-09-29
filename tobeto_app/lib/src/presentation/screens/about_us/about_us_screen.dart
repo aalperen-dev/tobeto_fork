@@ -86,7 +86,7 @@ class AboutUsScreen extends StatelessWidget {
                             color: Color.fromARGB(90, 0, 0, 0), blurRadius: 10),
                       ],
                       borderRadius: BorderRadius.circular(20),
-                      color: Theme.of(context).colorScheme.background,
+                      color: Theme.of(context).colorScheme.surface,
                     ),
                     child: Column(
                       children: [
@@ -127,7 +127,7 @@ class AboutUsScreen extends StatelessWidget {
                             color: Color.fromARGB(90, 0, 0, 0), blurRadius: 10),
                       ],
                       borderRadius: BorderRadius.circular(20),
-                      color: Theme.of(context).colorScheme.background,
+                      color: Theme.of(context).colorScheme.surface,
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,

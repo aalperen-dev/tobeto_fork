@@ -49,7 +49,7 @@ class _CourseVideoCardState extends State<CourseVideoCard> {
       child: SizedBox(
         width: double.infinity,
         child: Card(
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           margin: const EdgeInsets.all(10),
           child: Padding(
             padding: const EdgeInsets.all(16),

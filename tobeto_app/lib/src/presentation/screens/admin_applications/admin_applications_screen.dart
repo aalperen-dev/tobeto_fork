@@ -83,7 +83,7 @@ void _showApplicationDetails(
     context: context,
     builder: (context) {
       return AlertDialog(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         title: Text(
           '${userModel!.userName} ${userModel.userSurname}',
           style: TextStyle(
@@ -131,7 +131,7 @@ void _showApplicationDetails(
                     builder: (context, setState) {
                       return AlertDialog(
                         backgroundColor:
-                            Theme.of(context).colorScheme.background,
+                            Theme.of(context).colorScheme.surface,
                         title: Text(
                           'Kullanıcıya Ünvan Şeçin!',
                           style: TextStyle(

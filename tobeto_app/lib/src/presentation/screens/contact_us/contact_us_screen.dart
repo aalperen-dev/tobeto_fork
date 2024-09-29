@@ -73,7 +73,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                             vertical: 20, horizontal: 8),
                         width: MediaQuery.of(context).size.width,
                         decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.background,
+                          color: Theme.of(context).colorScheme.surface,
                           borderRadius: const BorderRadius.all(
                             Radius.circular(10),
                           ),
@@ -149,7 +149,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                         ),
                         width: MediaQuery.of(context).size.width,
                         decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.background,
+                          color: Theme.of(context).colorScheme.surface,
                           borderRadius: const BorderRadius.all(
                             Radius.circular(10),
                           ),

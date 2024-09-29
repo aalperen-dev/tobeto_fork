@@ -18,7 +18,7 @@ class TBTEndDrawer extends StatelessWidget {
               (state.userModel.userRank == UserRank.admin ||
                   state.userModel.userRank == UserRank.instructor)) {
             return Drawer(
-              backgroundColor: Theme.of(context).colorScheme.background,
+              backgroundColor: Theme.of(context).colorScheme.surface,
               child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 1),
                 children: [
